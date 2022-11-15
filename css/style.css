@@ -1,0 +1,167 @@
+/* Attributi generali */
+/* Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header e intestazione */
+
+.acqua-background {
+    background-color: #add8e6;
+    min-height: 80px;
+    min-width: 1050px;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+.intestazione > div {
+    
+    min-height: 30px;
+    min-width: 300px;
+    background-color: #daa520;
+    vertical-align: middle;
+    padding: 10px 5px 10px 5px;
+
+}
+
+#logo {
+    text-align: left;
+    
+}
+
+#button {
+    text-align: right;
+    
+}
+
+#link {
+    text-align: center;
+    min-width: 450px;
+    
+    
+}
+
+/* Fine attributi header */
+
+/* inizio attributi Main  */
+
+.boldblue {
+    background-color: #00008b;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#pink-box-only {
+    background-color: #ee82ee;
+    min-width: 700px;
+    padding-top: 11%;
+    padding-bottom: 11%;
+}
+
+/* Fine First Block  */
+
+/* Inizio Second Block  */
+
+.pink-blue-white-box {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.pink-blue-gray-box {
+    background-color: #d3d3d3;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.small-section {
+    min-height: 450px;
+    min-width: 420px;
+    background-color: #ffc0cb;
+}
+
+.big-section {
+    min-height: 450px;
+    min-width: 630px;
+    background-color: #1e90ff;
+}
+
+/* Fine second block  */
+
+/* Inizio third block  */
+
+.third-block {
+    background-color: #d3d3d3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#green-box {
+    background-color: #228b22;
+    min-width: 1050px;
+    min-height: 600px;
+    
+}
+
+/* Inizio fourth block  */
+
+.boldgray-background {
+    background-color: #23272a;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#left-pink-side {
+    min-height: 450px;
+    min-width: 350px;
+    background-color:  #f08080 ;
+}
+
+#right-acqua-side {
+    background-color: #20b2aa;
+    min-height: 450px;
+    min-width: 175px;
+}
+/* Fine fourth block  */
+/* Fine main  */
+
+/* Inizio Footer  */
+
+.azul-background {
+    background-color: #7fffd4;
+    min-height: 50px;
+    vertical-align: middle;
+    padding: 10px 5px 10px 5px;
+    min-width: 525px;
+}
+
+.logo-due {
+    border-color: black solid 1px;
+    text-align: left;
+}
+
+.button-due {
+    text-align: right;
+    border-color: black solid 1px;
+
+}
+
+.boldgray-background-due {
+    background-color: #23272a;
+    padding-top: 20px;
+
+}
+
+/* fine footer  */
