@@ -109,32 +109,35 @@ p {
 
 /* Inizio Second Block  */
 
-.pink-blue-white-box {
+.white-background {
     background-color: white;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-}
-
-.pink-blue-gray-box {
-    background-color: #d3d3d3;
     margin-top: 40px;
     margin-bottom: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
-
 }
 
+
 .small-section {
+    padding-top: 35px;
     min-height: 450px;
-    min-width: 420px;
-    background-color: #ffc0cb;
+    max-width: 372px;
+}
+
+.small-section > p {
+    text-align: left;
+    color: black;
+}
+
+.small-section > div {
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .big-section {
     min-height: 450px;
-    min-width: 630px;
-    background-color: #1e90ff;
+    max-width: 1050px;
+    
 }
 
 /* Fine second block  */
