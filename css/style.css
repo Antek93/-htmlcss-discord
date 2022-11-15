@@ -73,6 +73,22 @@ p {
     text-align: center;
 }
 
+.button {
+    padding: 3px 3px 3px 3px;
+    border-radius: 3px;
+
+}
+
+.white-buttons {
+    background-color: white;
+    color: black;
+}
+
+.black-buttons {
+    background-color: darkslategray;
+    color: white;
+}
+
 /* Fine First Block  */
 
 /* Inizio Second Block  */
