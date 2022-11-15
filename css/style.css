@@ -181,7 +181,12 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     
+}
 
+.last-button {
+    color: white;
+    background-color: #8ea1e1;
+    font-weight: 300;
 }
 
 
