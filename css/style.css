@@ -189,7 +189,10 @@ p {
 }
 
 
-/* Inizio footer block  */
+/* Fine fourth block  */
+/* Fine main  */
+
+/* Inizio Footer  */
 
 .boldgray-background {
     background-color: #23272a;
@@ -213,6 +216,7 @@ p {
     font-weight: 700;
     text-align: left;
     color: #7087d7;
+    margin-top: 1px;
 }
 
 .flag {
@@ -261,16 +265,27 @@ p {
     min-width: 175px;
 }
 
-#right-acqua-side {
-    background-color: #20b2aa;
+.first-menu {
+    margin-top: 10px;
+    margin-left: 50px;
     min-height: 450px;
     min-width: 175px;
 }
 
-/* Fine fourth block  */
-/* Fine main  */
 
-/* Inizio Footer  */
+
+.first-menu > div > a {
+    text-decoration: none;
+    color: white;
+}
+
+.purple-title {
+   color: #7087d7;
+   font-weight: 600;
+}
+
+
+
 
 .azul-background {
     background-color: #7fffd4;
