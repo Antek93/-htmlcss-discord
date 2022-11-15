@@ -198,6 +198,8 @@ p {
     background-color: #23272a;
     padding-bottom: 40px;
     padding-top: 60px;
+    border: 1px 1px 1px 1px;
+    border-color: #8ea1e1;
 }
 
 #change-language {
@@ -260,8 +262,16 @@ p {
 }
   
 .container-at-last {
-    min-height: 350px;
+    min-height: 100px;
     min-width: 175px;
+
+    /* border-top: 10px 0px 0px 0px;
+    border-color: #8ea1e1;; */
+}
+
+hr {
+    border: 10px 0px 0px 0px;
+    border-
 }
 
 .gray {
@@ -271,7 +281,6 @@ p {
 .first-menu {
     margin-top: 10px;
     margin-left: 50px;
-    min-height: 450px;
     min-width: 175px;
 }
 
@@ -284,28 +293,6 @@ p {
 .purple-title {
    color: #7087d7;
    font-weight: 600;
-}
-
-
-
-
-.azul-background {
-    background-color: #7fffd4;
-    min-height: 50px;
-    vertical-align: middle;
-    padding: 10px 5px 10px 5px;
-    min-width: 525px;
-}
-
-.logo-due {
-    border-color: black solid 1px;
-    text-align: left;
-}
-
-.button-due {
-    text-align: right;
-    border-color: black solid 1px;
-
 }
 
 .boldgray-background-due {
