@@ -23,6 +23,13 @@ body {
     align-items: center;
 } 
 
+.container-flex-centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
 .logo {
     text-align: left;
     
