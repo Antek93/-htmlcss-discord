@@ -241,7 +241,7 @@ p {
 }
 
 .fa-brands {
-    padding-right: 15px;
+    padding-right: 25px;
     color:white;
 }
 
@@ -259,10 +259,13 @@ p {
     align-items: flex-start;
 }
   
-.container-gray {
-    background-color: #23272a;
-    min-height: 450px;
+.container-at-last {
+    min-height: 350px;
     min-width: 175px;
+}
+
+.gray {
+    background-color: #23272a;
 }
 
 .first-menu {
@@ -271,7 +274,6 @@ p {
     min-height: 450px;
     min-width: 175px;
 }
-
 
 
 .first-menu > div > a {
