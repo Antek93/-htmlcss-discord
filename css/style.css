@@ -27,7 +27,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
 } 
 
 .logo {
@@ -195,12 +194,71 @@ p {
 .boldgray-background {
     background-color: #23272a;
     padding-bottom: 40px;
+    padding-top: 60px;
 }
 
-#left-pink-side {
+#change-language {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+#list {
+    text-align: left;
+}
+
+#footer-title {
+    font-family: work sans, serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    color: #7087d7;
+}
+
+.flag {
+    position: relative;
+    width: 12px;
+    height: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+.italy {
+    background: linear-gradient(
+    to right,
+    #009343 33%,
+    #fff 33%,
+    #fff 66%,
+    #cf2734 0
+ );
+}
+
+.fa-brands {
+    padding-right: 15px;
+    color:white;
+}
+
+.container-flex-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container-flex-over {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+  
+.container-gray {
+    background-color: #23272a;
     min-height: 450px;
-    min-width: 350px;
-    background-color:  #f08080 ;
+    min-width: 175px;
 }
 
 #right-acqua-side {
@@ -208,6 +266,7 @@ p {
     min-height: 450px;
     min-width: 175px;
 }
+
 /* Fine fourth block  */
 /* Fine main  */
 
