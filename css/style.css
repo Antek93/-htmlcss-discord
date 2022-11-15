@@ -60,11 +60,17 @@
     padding-bottom: 2%;
 }
 
-#central-box {
-    background-color: #ee82ee83;
-    min-width: 700px;
-    padding-top: 11%;
-    padding-bottom: 11%;
+#titolo {
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* Fine First Block  */
