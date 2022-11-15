@@ -152,17 +152,38 @@ p {
 /* Inizio third block  */
 
 .third-block {
-    background-color: #d3d3d3;
     padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-#green-box {
-    background-color: #228b22;
+    padding-bottom: 150px;
     min-width: 1050px;
     min-height: 600px;
-    
 }
+    
+
+#third-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+#third-paragraph {
+    text-align: center;
+    color: black;
+}
+
+#last-title {
+    width: 531px;
+    height: 49px;
+    font-family: work sans, serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    background-image: url('../img/stars.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
 
 /* Inizio fourth block  */
 
