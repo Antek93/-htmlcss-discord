@@ -10,7 +10,7 @@
 /* Header e intestazione */
 
 .acqua-background {
-    background-color: #add8e6;
+    background-color: #3161e0;
     min-height: 80px;
     min-width: 1050px;
 }
@@ -26,7 +26,7 @@
     
     min-height: 30px;
     min-width: 300px;
-    background-color: #daa520;
+    background-color: #3161e0;
     vertical-align: middle;
     padding: 10px 5px 10px 5px;
 
@@ -53,14 +53,15 @@
 
 /* inizio attributi Main  */
 
-.boldblue {
-    background-color: #00008b;
+.discord-img{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-#pink-box-only {
-    background-color: #ee82ee;
+#central-box {
+    background-color: #ee82ee83;
     min-width: 700px;
     padding-top: 11%;
     padding-bottom: 11%;
