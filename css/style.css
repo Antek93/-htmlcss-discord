@@ -6,45 +6,36 @@
     box-sizing: border-box;
 }
 
-
+body {
+    font-family: work sans, Arial, Helvetica, sans-serif;
+}
 /* Header e intestazione */
 
 .acqua-background {
-    background-color: #3161e0;
+    background-color: #255ee9;
     min-height: 80px;
-    min-width: 1050px;
 }
 
 .container-flex {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 } 
 
-.intestazione > div {
-    
-    min-height: 30px;
-    min-width: 300px;
-    background-color: #3161e0;
-    vertical-align: middle;
-    padding: 10px 5px 10px 5px;
-
-}
-
-#logo {
+.logo {
     text-align: left;
     
 }
 
-#button {
-    text-align: right;
+.menù {
+    text-align: center;
+ 
     
 }
 
-#link {
-    text-align: center;
-    min-width: 450px;
+.accedi {
+    text-align: right;
     
     
 }
@@ -57,36 +48,55 @@
     background-image: url('../img/jumbo.png');
     background-size: cover;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 16%;
 }
 
 #titolo {
     color: white;
-    font-weight: 100;
+    font-weight: bolder;
     font-size: 50px;
     text-align: center;
+    margin-top: 85px;
 }
 
 p {
     color: white;
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
 }
 
 .button {
-    padding: 3px 3px 3px 3px;
-    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
 
+}
+
+.head-buttons {
+    color: white;
+    border-color: none;
+    margin: 16px;
+
+    background-color:#255ee9;
+    border: none;
+    font-size: 16px;
+    font-weight:400;
 }
 
 .white-buttons {
-    background-color: white;
     color: black;
+    border-color: white;
+    margin-right: 20px;
 }
 
 .black-buttons {
-    background-color: darkslategray;
     color: white;
+    background-color: #23272a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* Fine First Block  */
