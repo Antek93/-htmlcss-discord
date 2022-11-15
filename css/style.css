@@ -68,20 +68,18 @@ p {
 .button {
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
-    border: none;
+    border: white;
     font-size: 15px;
 
 }
 
 .head-buttons {
     color: white;
-    border-color: none;
     margin: 16px;
-
     background-color:#255ee9;
-    border: none;
     font-size: 16px;
     font-weight:400;
+    border: none;
 }
 
 .white-buttons {
@@ -93,7 +91,6 @@ p {
 .black-buttons {
     color: white;
     background-color: #23272a;
-    border: none;
     color: white;
     text-align: center;
     text-decoration: none;
